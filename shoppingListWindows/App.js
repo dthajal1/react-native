@@ -4,7 +4,7 @@ import { Text, View, StyleSheet } from 'react-native';
 const App = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.txt}>Hello world!</Text>
+      <Text style={styles.txt}>Hello world from Windows!</Text>
     </View>
   )
 }
@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   txt: {
-    fontSize: 50
+    fontSize: 20
   }
 })
 
